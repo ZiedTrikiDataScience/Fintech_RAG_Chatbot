@@ -7,7 +7,6 @@ from PIL import Image
 # Function to handle the chatbot logic
 def chatbot(prompt):
     api_key = os.environ.get("MISTRAL_API_KEY")
-    #api_key = os.environ["MISTRAL_API_KEY"] = 'joukTqVPkc1Z7XI34QIE2vmEGyncaNsy'
     faq = search_similar_question(prompt)
     enhanced_answer = generate_enhanced_answer(prompt, faq['answer'], api_key=api_key)
     return enhanced_answer
