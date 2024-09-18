@@ -1,8 +1,9 @@
 version: '3.9'
 
-
+name: fintech_rag_streamlit_app
 
 services:
+
   # Elasticsearch service
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:7.17.13
