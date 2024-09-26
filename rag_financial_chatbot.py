@@ -49,16 +49,8 @@ qa_data = [
 
 
 # 1. Connect to ElasticSearch :
-"""
-es_username = "elastic"
-es_password = "GLKCYmtANmxVwVxdNZum"
 
-# Create an Elasticsearch client with authentication
-es = Elasticsearch(
-    ["http://localhost:9200"],
-    basic_auth=(es_username, es_password)
-)
-"""
+
 
 # Get the Elasticsearch host from environment variable
 es_host = os.getenv('ELASTICSEARCH_HOST', 'http://localhost:9200')
