@@ -1,4 +1,4 @@
-qa_data = [
+[
     {
         "question": "What is FinTechX?",
         "answer": "FinTechX is an online platform that offers a range of financial services, including personal loans, investments, and budgeting tools."
@@ -17,7 +17,7 @@ qa_data = [
     },
     {
         "question": "What are the fees for investing with FinTechX?",
-        "answer": "FinTechX charges a 0.25% annual management fee on all invested assets. There are no fees for account opening or transfers, but transaction fees may apply for specific products."
+        "answer": "FinTechX charges a 0.25 percent annual management fee on all invested assets. There are no fees for account opening or transfers, but transaction fees may apply for specific products."
     },
     {
         "question": "How does FinTechX ensure the security of my financial data?",

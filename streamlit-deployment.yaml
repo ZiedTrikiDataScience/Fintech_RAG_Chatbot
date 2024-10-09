@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: streamlit-chatbot
-        image: ziedtrikimlops/rag-chatbot-fintech:v1
+        image: ziedtrikimlops/rag-chatbot-fintech:v3
         ports:
         - containerPort: 8501
         env:

@@ -20,4 +20,4 @@ COPY . /app/
 EXPOSE 8501
 
 # Set the entrypoint to run the Streamlit app
-CMD ["streamlit", "run", "chatbot_rag_fintex.py"]
+CMD ["streamlit", "run", "streamlit_chatbot_rag_fintex.py"]
